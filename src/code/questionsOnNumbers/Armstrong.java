@@ -2,12 +2,10 @@ package code.questionsOnNumbers;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 
 
-public class ArmstrongNumber {
+public class Armstrong {
 	public static void main (String [] args) throws NumberFormatException, IOException {
 		System.out.println("Enter the number:");
 		BufferedReader bf = new BufferedReader(new java.io.InputStreamReader(System.in));
